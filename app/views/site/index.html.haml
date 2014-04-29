@@ -1,0 +1,18 @@
+%h1 Fastly/IP testing
+
+%table
+  - @metadata.each do |k, v|
+    %tr
+      %td
+        %code= k
+      %td
+        %code= v
+
+%h2 Request Headers
+%table
+  - @http_headers.each do |k, v|
+    %tr
+      %td
+        %code= k
+      %td
+        %code= v
