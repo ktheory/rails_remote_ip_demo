@@ -9,6 +9,8 @@ This app illustrates the difference in `request.remote_ip` and `request.ip` in R
 bin/rails server
 ```
 
+This is a boilerplate Rails app with a simple [SiteController#index](https://github.com/ktheory/rails_remote_ip_demo/blob/master/app/controllers/site_controller.rb).
+
 ## See the weirdness:
 ```
 $ curl -H 'Client-IP: 2.2.2.2' localhost:3000/
